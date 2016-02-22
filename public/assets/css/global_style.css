@@ -1,0 +1,17 @@
+body{
+    background-color:#000;
+}
+
+body.external-page #content .panel {
+	border-top-color: #3498DB;
+}
+body.external-page #content .admin-form {
+	position: relative;
+	width: 100%;
+	max-width: 400px;
+	margin: 0 auto;
+	margin-top: 8%;
+}
+body.external-page #main {
+	background: url("../img/login.jpg") no-repeat top center #2d494d;
+}

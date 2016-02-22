@@ -1,0 +1,45 @@
+{
+    "name": "root/hmif_official",
+    "description": "HMIF OFFICIAL WEBSITE",
+    "type": "Application",
+    "require-dev": {
+        "behat/behat": "^3.0",
+        "phpspec/phpspec": "^2.3",
+        "symfony/debug": "^2.7",
+        "symfony/var-dumper": "^2.7",
+        "doctrine/data-fixtures": "^1.1"
+
+    },
+    "require": {
+        "silex/silex": "^1.3",
+        "stack/builder": "^1.0",
+        "symfony/yaml": "^2.7",
+        "twig/twig": "^1.22",
+        "doctrine/dbal": "^2.5",
+        "robmorgan/phinx": "^0.4.6",
+        "monolog/monolog": "^1.17",
+        "swiftmailer/swiftmailer": "^5.4",
+        "symfony/validator": "^2.7",
+        "symfony/translation": "^2.7",
+        "symfony/locale": "^2.7",
+        "silex/web-profiler": "^1.0",
+        "symfony/form": "^2.7",
+        "symfony/security": "^2.7",
+        "symfony/twig-bridge": "^3.0@dev",
+        "symfony/intl": "^3.0@dev",
+        "symfony/doctrine-bridge": "^3.0@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jimmy",
+            "email": "komaltecho@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload" : {
+        "psr-4" : {
+            "hmif_official\\": "src/"
+        }
+    }
+}
